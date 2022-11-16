@@ -1,0 +1,111 @@
+
+body{
+    background-color: wheat;   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height:1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left-side{
+    border: solid orangered 15px;
+    position: relative;
+    background-color: grey;
+    padding: 10px;
+}
+.pfp{
+    position: relative;
+    margin-left: 50px;
+    border:solid snow;
+    border-radius: 50%;
+}
+.divider1{
+    border-top: 3px snow;
+    border-style: solid;
+}
+
+.container .right-side{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: solid grey 15px;
+}
+.contactInfo{
+    position: relative;
+    margin-right: 60px;
+}
+.contactInfo h3{
+    position: relative;
+    margin-left: 70px;
+    font-family: Verdana;
+    font-size: 25px;
+    text-decoration: underline orangered;
+}
+.contactInfo .contact{
+    position: relative;
+    margin-left: 30px;
+    list-style: none;
+}
+.contact li{
+    padding: 6px;
+    font-family: sans-serif;
+    font-size: 23px;
+}
+.skills{
+    position: relative;
+    margin-right: 70px;
+}
+.skills h3{
+    position: relative;
+    margin-left: 80px;
+    font-family: Verdana;
+    font-size: 25px;
+    text-decoration: underline orangered;
+}
+.skillList{
+    font-family: sans-serif;
+    list-style: none;
+}
+.sets{
+    position: relative;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.skillList li{
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 5px;
+}
+i{
+    color: orangered;
+    margin-right: 10px;
+}
+
+.container .right-side{
+    background-color: whitesmoke;
+    padding: 40px;
+    font-family:'Cambria';
+    font-size: 25px;
+}
+.right-side h2{
+    font-family: Verdana;
+    text-decoration: underline orangered;
+    margin-left: 110px;
+}
+.right-side .summary{
+    font-size: 25px;
+}
+.interests li{
+    list-style:circle;
+    padding: 6px;
+}
